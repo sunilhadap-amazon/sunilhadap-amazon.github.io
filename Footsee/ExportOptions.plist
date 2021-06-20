@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compileBitcode</key>
+	<true/>
+	<key>destination</key>
+	<string>export</string>
+	<key>manifest</key>
+	<dict>
+		<key>appURL</key>
+		<string>https://www.icloud.com/iclouddrive/02IQCKak1IvAqISpWByEqelTw#Footsee</string>
+		<key>displayImageURL</key>
+		<string>https://www.icloud.com/iclouddrive/0EnQkbKFQaUNrumuhqjNYL4tQ#Footsee%5F57x57</string>
+		<key>fullSizeImageURL</key>
+		<string>https://www.icloud.com/iclouddrive/0PdIJ1UvbRlLKhbd5ArX8ctYw#Footsee%5F512x512</string>
+	</dict>
+	<key>method</key>
+	<string>ad-hoc</string>
+	<key>signingStyle</key>
+	<string>automatic</string>
+	<key>stripSwiftSymbols</key>
+	<true/>
+	<key>teamID</key>
+	<string>A25W4243CS</string>
+	<key>thinning</key>
+	<string>&lt;none&gt;</string>
+</dict>
+</plist>
