@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://sunilhadap-amazon.github.io/Footsee/footsee.ipa</string>
+					<string>https://sunilhadap-amazon.github.io/Footsee/Footsee.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -29,7 +29,7 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.millerle.rhapsody.Footsee22Jun21</string>
+				<string>com.sunilhadap.rhapsody.Footsee1</string>
 				<key>bundle-version</key>
 				<string>0.9</string>
 				<key>kind</key>
