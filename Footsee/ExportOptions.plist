@@ -3,26 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>compileBitcode</key>
-	<true/>
+	<false/>
 	<key>destination</key>
 	<string>export</string>
 	<key>manifest</key>
 	<dict>
 		<key>appURL</key>
-		<string>https://www.icloud.com/iclouddrive/02IQCKak1IvAqISpWByEqelTw#Footsee</string>
+		<string>https://www.nurmatova.com/uploads/22Jun21/footsee.ipa</string>
 		<key>displayImageURL</key>
-		<string>https://www.icloud.com/iclouddrive/0EnQkbKFQaUNrumuhqjNYL4tQ#Footsee%5F57x57</string>
+		<string>https://www.nurmatova.com/uploads/22Jun21/image.57x57.png</string>
 		<key>fullSizeImageURL</key>
-		<string>https://www.icloud.com/iclouddrive/0PdIJ1UvbRlLKhbd5ArX8ctYw#Footsee%5F512x512</string>
+		<string>https://www.nurmatova.com/uploads/22Jun21/image.512x512.png</string>
 	</dict>
 	<key>method</key>
-	<string>ad-hoc</string>
+	<string>development</string>
 	<key>signingStyle</key>
 	<string>automatic</string>
 	<key>stripSwiftSymbols</key>
 	<true/>
 	<key>teamID</key>
-	<string>A25W4243CS</string>
+	<string>94KV3E626L</string>
 	<key>thinning</key>
 	<string>&lt;none&gt;</string>
 </dict>
