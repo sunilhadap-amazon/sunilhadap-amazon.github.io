@@ -1,0 +1,713 @@
+2021-06-25 05:43:41 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fa597a77110; archive(resolved)='<IDEArchive: 0x7fa596269050>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	Chain (14, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x7fa597a77110; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fa597ad3060; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa596e79e40; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa597fdab80; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa597fa0000; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa593fe86d0; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa597a343e0; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa5941946d0; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa595b504a0; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fa5e8686e50; teamID='A25W4243CS', teamName='Sunil Hadap', teamType='Individual', username='sunilhadap@hotmail.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fa597f15a70; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa597ac5610; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa5962a01a0; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa5941179f0; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='<IDEDistributionMethodiOSAdHoc: 0x7fa5963ef1d0>', team='(null)'>
+	<IDEDistributionContext: 0x7fa596293cf0; archive = '<IDEArchive: 0x7fa596269050>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fa597a77110>
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionCreateDestRootStep
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionCopyItemStep
+2021-06-25 05:43:41 +0000  Running /usr/bin/ditto '-V' '/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app'
+2021-06-25 05:43:41 +0000  >>> Copying /Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app 
+2021-06-25 05:43:41 +0000  copying file ./_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  16154 bytes for ./_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Settings.bundle/en.lproj/Root.strings ... 
+2021-06-25 05:43:41 +0000  546 bytes for ./Settings.bundle/en.lproj/Root.strings
+copying file ./Settings.bundle/Root.plist ... 
+2021-06-25 05:43:41 +0000  3277 bytes for ./Settings.bundle/Root.plist
+2021-06-25 05:43:41 +0000  copying file ./Footsee ... 
+2021-06-25 05:43:41 +0000  3376576 bytes for ./Footsee
+2021-06-25 05:43:41 +0000  copying file ./AppIcon60x60@2x.png ... 
+2021-06-25 05:43:41 +0000  4571 bytes for ./AppIcon60x60@2x.png
+copying file ./frog-foot-svgrepo-com.svg ... 
+2021-06-25 05:43:41 +0000  852 bytes for ./frog-foot-svgrepo-com.svg
+2021-06-25 05:43:41 +0000  copying file ./Base.lproj/Main.storyboardc/vej-qd-Tzv-view-xVE-xt-emR.nib ... 
+2021-06-25 05:43:41 +0000  28599 bytes for ./Base.lproj/Main.storyboardc/vej-qd-Tzv-view-xVE-xt-emR.nib
+2021-06-25 05:43:41 +0000  copying file ./Base.lproj/Main.storyboardc/UITableViewController-vej-qd-Tzv.nib ... 
+2021-06-25 05:43:41 +0000  3351 bytes for ./Base.lproj/Main.storyboardc/UITableViewController-vej-qd-Tzv.nib
+2021-06-25 05:43:41 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-rjK-Im-gwb.nib ... 
+2021-06-25 05:43:41 +0000  8230 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-rjK-Im-gwb.nib
+copying file ./Base.lproj/Main.storyboardc/UINavigationController-C0f-nK-5UG.nib ... 
+2021-06-25 05:43:41 +0000  2769 bytes for ./Base.lproj/Main.storyboardc/UINavigationController-C0f-nK-5UG.nib
+2021-06-25 05:43:41 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2021-06-25 05:43:41 +0000  361 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-06-25 05:43:41 +0000  1197 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-06-25 05:43:41 +0000  896 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2021-06-25 05:43:41 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2021-06-25 05:43:41 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Release.md ... 
+2021-06-25 05:43:41 +0000  319 bytes for ./Release.md
+2021-06-25 05:43:41 +0000  copying file ./Assets.car ... 
+2021-06-25 05:43:41 +0000  104328 bytes for ./Assets.car
+2021-06-25 05:43:41 +0000  copying file ./.gitignore ... 
+2021-06-25 05:43:41 +0000  1583 bytes for ./.gitignore
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2021-06-25 05:43:41 +0000  5826 bytes for ./AppIcon76x76@2x~ipad.png
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  1798 bytes for ./Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2021-06-25 05:43:41 +0000  1023440 bytes for ./Frameworks/SwiftyJSON.framework/SwiftyJSON
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SwiftyJSON.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  742 bytes for ./Frameworks/SwiftyJSON.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/MarqueeLabel.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  1798 bytes for ./Frameworks/MarqueeLabel.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/MarqueeLabel.framework/MarqueeLabel ... 
+2021-06-25 05:43:41 +0000  826368 bytes for ./Frameworks/MarqueeLabel.framework/MarqueeLabel
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/MarqueeLabel.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  746 bytes for ./Frameworks/MarqueeLabel.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/ZIPFoundation.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  1798 bytes for ./Frameworks/ZIPFoundation.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/ZIPFoundation.framework/ZIPFoundation ... 
+2021-06-25 05:43:41 +0000  1397024 bytes for ./Frameworks/ZIPFoundation.framework/ZIPFoundation
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/ZIPFoundation.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  749 bytes for ./Frameworks/ZIPFoundation.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/NotificationBannerSwift.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  1798 bytes for ./Frameworks/NotificationBannerSwift.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift ... 
+2021-06-25 05:43:41 +0000  1399568 bytes for ./Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/NotificationBannerSwift.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  771 bytes for ./Frameworks/NotificationBannerSwift.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/MetaWear.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  1798 bytes for ./Frameworks/MetaWear.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/MetaWear.framework/MetaWear ... 
+2021-06-25 05:43:41 +0000  7061376 bytes for ./Frameworks/MetaWear.framework/MetaWear
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/MetaWear.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  779 bytes for ./Frameworks/MetaWear.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/DropDown.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  2096 bytes for ./Frameworks/DropDown.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/DropDown.framework/DropDown ... 
+2021-06-25 05:43:41 +0000  1095456 bytes for ./Frameworks/DropDown.framework/DropDown
+copying file ./Frameworks/DropDown.framework/DropDownCell.nib ... 
+2021-06-25 05:43:41 +0000  2510 bytes for ./Frameworks/DropDown.framework/DropDownCell.nib
+copying file ./Frameworks/DropDown.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  739 bytes for ./Frameworks/DropDown.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/iOSDFULibrary.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  1798 bytes for ./Frameworks/iOSDFULibrary.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/iOSDFULibrary.framework/iOSDFULibrary ... 
+2021-06-25 05:43:41 +0000  3601632 bytes for ./Frameworks/iOSDFULibrary.framework/iOSDFULibrary
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/iOSDFULibrary.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  749 bytes for ./Frameworks/iOSDFULibrary.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  1798 bytes for ./Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SnapKit.framework/SnapKit ... 
+2021-06-25 05:43:41 +0000  1358704 bytes for ./Frameworks/SnapKit.framework/SnapKit
+copying file ./Frameworks/SnapKit.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  737 bytes for ./Frameworks/SnapKit.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SwiftProtobuf.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Frameworks/SwiftProtobuf.framework/_CodeSignature/CodeResources
+copying file ./Frameworks/SwiftProtobuf.framework/SwiftProtobuf ... 
+2021-06-25 05:43:41 +0000  11834576 bytes for ./Frameworks/SwiftProtobuf.framework/SwiftProtobuf
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SwiftProtobuf.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  749 bytes for ./Frameworks/SwiftProtobuf.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SwiftyCam.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  1798 bytes for ./Frameworks/SwiftyCam.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SwiftyCam.framework/SwiftyCam ... 
+2021-06-25 05:43:41 +0000  1184448 bytes for ./Frameworks/SwiftyCam.framework/SwiftyCam
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/SwiftyCam.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  740 bytes for ./Frameworks/SwiftyCam.framework/Info.plist
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/BoltsSwift.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:41 +0000  1798 bytes for ./Frameworks/BoltsSwift.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/BoltsSwift.framework/BoltsSwift ... 
+2021-06-25 05:43:41 +0000  700272 bytes for ./Frameworks/BoltsSwift.framework/BoltsSwift
+2021-06-25 05:43:41 +0000  copying file ./Frameworks/BoltsSwift.framework/Info.plist ... 
+2021-06-25 05:43:41 +0000  742 bytes for ./Frameworks/BoltsSwift.framework/Info.plist
+copying file ./embedded.mobileprovision ... 
+2021-06-25 05:43:41 +0000  12004 bytes for ./embedded.mobileprovision
+copying file ./Info.plist ... 
+2021-06-25 05:43:41 +0000  2218 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2021-06-25 05:43:41 +0000  8 bytes for ./PkgInfo
+2021-06-25 05:43:41 +0000  /usr/bin/ditto exited with 0
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionEmbedProfileStep
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa597f0b530; bundleID='org.cocoapods.BoltsSwift', path='<DVTFilePath:0x7fa5963ac290:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f4b610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa5966a55f0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5c998a050>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.BoltsSwift', executablePath='<DVTFilePath:0x7fa595b164e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa597f19770; bundleID='org.cocoapods.DropDown', path='<DVTFilePath:0x7fa597cd8a70:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f23110; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa596db7c90; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa595f67560>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.DropDown', executablePath='<DVTFilePath:0x7fa596db81e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework/DropDown'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa595bfaec0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fa5963b0710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5960df5e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa596db7c90; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa595ffbe70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fa597f09090:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa5963cc080; bundleID='org.cocoapods.MetaWear', path='<DVTFilePath:0x7fa597c937b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fa06d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa5961418b0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5d9ef1790>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MetaWear', executablePath='<DVTFilePath:0x7fa595ae1510:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework/MetaWear'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa597f12a00; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fa59626a000:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595886f60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f8a830; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5958ed010>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fa596612440:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa5966a4a70; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fa59624a480:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fc71f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa5966a55f0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5c9978860>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fa597cd9710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa5941dec20; bundleID='org.cocoapods.SwiftProtobuf', path='<DVTFilePath:0x7fa5962e6ba0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa593474c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f8a830; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5958c35c0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftProtobuf', executablePath='<DVTFilePath:0x7fa596245550:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa5966a1110; bundleID='org.cocoapods.SwiftyCam', path='<DVTFilePath:0x7fa5962d7830:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5958f4c50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f1f3a0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa595833300>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyCam', executablePath='<DVTFilePath:0x7fa5966995e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa5963ac3b0; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fa5962ea890:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595b85ff0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa59382a690; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5958331e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fa5966159b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa595885070; bundleID='org.cocoapods.ZIPFoundation', path='<DVTFilePath:0x7fa5962f50f0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f1a2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa596db7c90; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa595fcd2e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.ZIPFoundation', executablePath='<DVTFilePath:0x7fa596665fc0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fa5966a2130; bundleID='org.cocoapods.iOSDFULibrary', path='<DVTFilePath:0x7fa5963adde0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f9f870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597ff6920; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5958bfda0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.iOSDFULibrary', executablePath='<DVTFilePath:0x7fa5963afe30:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionInfoPlistStep
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/DropDown.framework/DropDown' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/DropDown.framework/DropDown'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MetaWear.framework/MetaWear' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MetaWear.framework/MetaWear'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SnapKit.framework/SnapKit' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SnapKit.framework/SnapKit'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Footsee' '-r' '-o' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Footsee'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/bitcode_strip exited with 0
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionSymbolsStep
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionAppThinningStep
+2021-06-25 05:43:41 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionArchThinningStep
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "BoltsSwift" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/DropDown.framework/DropDown' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "DropDown" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "MarqueeLabel" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MetaWear.framework/MetaWear' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "MetaWear" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "NotificationBannerSwift" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SnapKit.framework/SnapKit' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "SnapKit" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "SwiftProtobuf" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "SwiftyCam" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "SwiftyJSON" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "ZIPFoundation" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "iOSDFULibrary" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Footsee' '-verify_arch' 'arm64e'
+2021-06-25 05:43:41 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2021-06-25 05:43:41 +0000  Skipping architecture thinning for item "Footsee" because arch "arm64e" wasn't found
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionODRStep
+2021-06-25 05:43:41 +0000  Processing step: IDEDistributionStripXattrsStep
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa597f0b530; bundleID='org.cocoapods.BoltsSwift', path='<DVTFilePath:0x7fa5963ac290:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f4b610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597fe8b20; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963ab1a0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.BoltsSwift', executablePath='<DVTFilePath:0x7fa595b164e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa597f19770; bundleID='org.cocoapods.DropDown', path='<DVTFilePath:0x7fa597cd8a70:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f23110; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f208e0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963910b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.DropDown', executablePath='<DVTFilePath:0x7fa596db81e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework/DropDown'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa595bfaec0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fa5963b0710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5960df5e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f9c450; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963b13e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fa597f09090:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa5963cc080; bundleID='org.cocoapods.MetaWear', path='<DVTFilePath:0x7fa597c937b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fa06d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597fa7390; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963efcc0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MetaWear', executablePath='<DVTFilePath:0x7fa595ae1510:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework/MetaWear'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa597f12a00; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fa59626a000:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595886f60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f911b0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963984a0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fa596612440:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa5966a4a70; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fa59624a480:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fc71f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa596647540; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa593cad7b0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fa597cd9710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa5941dec20; bundleID='org.cocoapods.SwiftProtobuf', path='<DVTFilePath:0x7fa5962e6ba0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa593474c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f90fd0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963f2090>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftProtobuf', executablePath='<DVTFilePath:0x7fa596245550:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa5966a1110; bundleID='org.cocoapods.SwiftyCam', path='<DVTFilePath:0x7fa5962d7830:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5958f4c50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa5941c1080; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa595fa3cd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyCam', executablePath='<DVTFilePath:0x7fa5966995e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa5963ac3b0; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fa5962ea890:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595b85ff0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f20cf0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963984a0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fa5966159b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa595885070; bundleID='org.cocoapods.ZIPFoundation', path='<DVTFilePath:0x7fa5962f50f0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f1a2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a2c470; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa595f054a0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.ZIPFoundation', executablePath='<DVTFilePath:0x7fa596665fc0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fa5966a2130; bundleID='org.cocoapods.iOSDFULibrary', path='<DVTFilePath:0x7fa5963adde0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f9f870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597fa6d70; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5c8fe3330>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.iOSDFULibrary', executablePath='<DVTFilePath:0x7fa5963afe30:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary'>', hardenedRuntime='0'>'>
+2021-06-25 05:43:41 +0000  Running /usr/bin/xattr '-crs' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app'
+2021-06-25 05:43:42 +0000  /usr/bin/xattr exited with 0
+2021-06-25 05:43:42 +0000  Processing step: IDEDistributionCodesignStep
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa597f0b530; bundleID='org.cocoapods.BoltsSwift', path='<DVTFilePath:0x7fa5963ac290:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f4b610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f0bfe0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963e96f0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.BoltsSwift', executablePath='<DVTFilePath:0x7fa595b164e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa597f0b530; bundleID='org.cocoapods.BoltsSwift', path='<DVTFilePath:0x7fa5963ac290:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f4b610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a2cbf0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa595f817e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.BoltsSwift', executablePath='<DVTFilePath:0x7fa595b164e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa597f0b530; bundleID='org.cocoapods.BoltsSwift', path='<DVTFilePath:0x7fa5963ac290:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f4b610; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f9d040; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa59635fa40>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.BoltsSwift', executablePath='<DVTFilePath:0x7fa595b164e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~TUlJNz
+2021-06-25 05:43:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~TUlJNz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/BoltsSwift.framework'
+2021-06-25 05:43:42 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/BoltsSwift.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.BoltsSwift]
+2021-06-25 05:43:42 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa597f19770; bundleID='org.cocoapods.DropDown', path='<DVTFilePath:0x7fa597cd8a70:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f23110; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a3cdb0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa593904e30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.DropDown', executablePath='<DVTFilePath:0x7fa596db81e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework/DropDown'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa597f19770; bundleID='org.cocoapods.DropDown', path='<DVTFilePath:0x7fa597cd8a70:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f23110; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597fb6e50; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5e2d764a0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.DropDown', executablePath='<DVTFilePath:0x7fa596db81e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework/DropDown'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa597f19770; bundleID='org.cocoapods.DropDown', path='<DVTFilePath:0x7fa597cd8a70:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f23110; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a4b1d0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5939176e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.DropDown', executablePath='<DVTFilePath:0x7fa596db81e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/DropDown.framework/DropDown'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~A15cD1
+2021-06-25 05:43:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~A15cD1' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/DropDown.framework'
+2021-06-25 05:43:42 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/DropDown.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.DropDown]
+2021-06-25 05:43:42 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa595bfaec0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fa5963b0710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5960df5e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa595bf3880; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa594345a40>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fa597f09090:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa595bfaec0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fa5963b0710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5960df5e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597ff9650; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963f6570>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fa597f09090:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa595bfaec0; bundleID='org.cocoapods.MarqueeLabel', path='<DVTFilePath:0x7fa5963b0710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5960df5e0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597ff9200; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963938e0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MarqueeLabel', executablePath='<DVTFilePath:0x7fa597f09090:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~0a2Hl0
+2021-06-25 05:43:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~0a2Hl0' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MarqueeLabel.framework'
+2021-06-25 05:43:42 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MarqueeLabel.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.MarqueeLabel]
+2021-06-25 05:43:42 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5963cc080; bundleID='org.cocoapods.MetaWear', path='<DVTFilePath:0x7fa597c937b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fa06d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa59660de00; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa593c7a470>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MetaWear', executablePath='<DVTFilePath:0x7fa595ae1510:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework/MetaWear'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5963cc080; bundleID='org.cocoapods.MetaWear', path='<DVTFilePath:0x7fa597c937b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fa06d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa5966a4680; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa593cc7740>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MetaWear', executablePath='<DVTFilePath:0x7fa595ae1510:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework/MetaWear'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa5963cc080; bundleID='org.cocoapods.MetaWear', path='<DVTFilePath:0x7fa597c937b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fa06d0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa59669d860; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa593ca13d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.MetaWear', executablePath='<DVTFilePath:0x7fa595ae1510:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/MetaWear.framework/MetaWear'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~ewqrsS
+2021-06-25 05:43:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~ewqrsS' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MetaWear.framework'
+2021-06-25 05:43:42 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MetaWear.framework: signed bundle with Mach-O thin (arm64) [org.cocoapods.MetaWear]
+2021-06-25 05:43:42 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa597f12a00; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fa59626a000:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595886f60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a46880; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5939ecbd0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fa596612440:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa597f12a00; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fa59626a000:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595886f60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a3dba0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa593984190>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fa596612440:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa597f12a00; bundleID='org.cocoapods.NotificationBannerSwift', path='<DVTFilePath:0x7fa59626a000:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595886f60; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f20cf0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963f0c70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.NotificationBannerSwift', executablePath='<DVTFilePath:0x7fa596612440:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~e0bkHZ
+2021-06-25 05:43:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~e0bkHZ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework'
+2021-06-25 05:43:42 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.NotificationBannerSwift]
+2021-06-25 05:43:42 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5966a4a70; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fa59624a480:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fc71f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597cdeef0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa59433b050>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fa597cd9710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5966a4a70; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fa59624a480:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fc71f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597fe66d0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5e2d76400>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fa597cd9710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa5966a4a70; bundleID='org.cocoapods.SnapKit', path='<DVTFilePath:0x7fa59624a480:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597fc71f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597ffada0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5c8fe3330>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SnapKit', executablePath='<DVTFilePath:0x7fa597cd9710:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SnapKit.framework/SnapKit'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~E4p5gG
+2021-06-25 05:43:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~E4p5gG' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SnapKit.framework'
+2021-06-25 05:43:42 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SnapKit.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SnapKit]
+2021-06-25 05:43:42 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5941dec20; bundleID='org.cocoapods.SwiftProtobuf', path='<DVTFilePath:0x7fa5962e6ba0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa593474c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa5948ed830; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963a6070>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftProtobuf', executablePath='<DVTFilePath:0x7fa596245550:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5941dec20; bundleID='org.cocoapods.SwiftProtobuf', path='<DVTFilePath:0x7fa5962e6ba0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa593474c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597ff9320; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963ac530>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftProtobuf', executablePath='<DVTFilePath:0x7fa596245550:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa5941dec20; bundleID='org.cocoapods.SwiftProtobuf', path='<DVTFilePath:0x7fa5962e6ba0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa593474c70; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597fc6460; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963acc60>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftProtobuf', executablePath='<DVTFilePath:0x7fa596245550:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~yKch3t
+2021-06-25 05:43:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~yKch3t' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftProtobuf.framework'
+2021-06-25 05:43:42 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftProtobuf.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftProtobuf]
+2021-06-25 05:43:42 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5966a1110; bundleID='org.cocoapods.SwiftyCam', path='<DVTFilePath:0x7fa5962d7830:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5958f4c50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f0c060; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963e9930>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyCam', executablePath='<DVTFilePath:0x7fa5966995e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5966a1110; bundleID='org.cocoapods.SwiftyCam', path='<DVTFilePath:0x7fa5962d7830:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5958f4c50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597fc2120; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963ca900>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyCam', executablePath='<DVTFilePath:0x7fa5966995e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa5966a1110; bundleID='org.cocoapods.SwiftyCam', path='<DVTFilePath:0x7fa5962d7830:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa5958f4c50; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597fbfec0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963aab50>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyCam', executablePath='<DVTFilePath:0x7fa5966995e0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~Rgd6kz
+2021-06-25 05:43:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~Rgd6kz' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyCam.framework'
+2021-06-25 05:43:42 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyCam.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftyCam]
+2021-06-25 05:43:42 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5963ac3b0; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fa5962ea890:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595b85ff0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a1d4f0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5939bdbb0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fa5966159b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa5963ac3b0; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fa5962ea890:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595b85ff0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f20cf0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963b9a60>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fa5966159b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:42 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa5963ac3b0; bundleID='org.cocoapods.SwiftyJSON', path='<DVTFilePath:0x7fa5962ea890:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595b85ff0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a3c870; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa59393f6d0>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.SwiftyJSON', executablePath='<DVTFilePath:0x7fa5966159b0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~Afhmyf
+2021-06-25 05:43:42 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~Afhmyf' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyJSON.framework'
+2021-06-25 05:43:42 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyJSON.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.SwiftyJSON]
+2021-06-25 05:43:42 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa595885070; bundleID='org.cocoapods.ZIPFoundation', path='<DVTFilePath:0x7fa5962f50f0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f1a2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a5f650; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa59394d700>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.ZIPFoundation', executablePath='<DVTFilePath:0x7fa596665fc0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:42 +0000  Entitlements for <IDEDistributionItem: 0x7fa595885070; bundleID='org.cocoapods.ZIPFoundation', path='<DVTFilePath:0x7fa5962f50f0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f1a2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f20cf0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa596387840>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.ZIPFoundation', executablePath='<DVTFilePath:0x7fa596665fc0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:43 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa595885070; bundleID='org.cocoapods.ZIPFoundation', path='<DVTFilePath:0x7fa5962f50f0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f1a2c0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a3db40; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5939e4730>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.ZIPFoundation', executablePath='<DVTFilePath:0x7fa596665fc0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~1W5ggK
+2021-06-25 05:43:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~1W5ggK' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/ZIPFoundation.framework'
+2021-06-25 05:43:43 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/ZIPFoundation.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.ZIPFoundation]
+2021-06-25 05:43:43 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:43 +0000  Entitlements for <IDEDistributionItem: 0x7fa5966a2130; bundleID='org.cocoapods.iOSDFULibrary', path='<DVTFilePath:0x7fa5963adde0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f9f870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a72880; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa593949d70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.iOSDFULibrary', executablePath='<DVTFilePath:0x7fa5963afe30:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary'>', hardenedRuntime='0'>'>: {
+}
+2021-06-25 05:43:43 +0000  Entitlements for <IDEDistributionItem: 0x7fa5966a2130; bundleID='org.cocoapods.iOSDFULibrary', path='<DVTFilePath:0x7fa5963adde0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f9f870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597f20cf0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5963e9930>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.iOSDFULibrary', executablePath='<DVTFilePath:0x7fa5963afe30:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary'>', hardenedRuntime='0'>'> are: {
+}
+2021-06-25 05:43:43 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa5966a2130; bundleID='org.cocoapods.iOSDFULibrary', path='<DVTFilePath:0x7fa5963adde0:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa597f9f870; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a46590; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa593926c30>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='(null)', teamID='A25W4243CS', identifier='org.cocoapods.iOSDFULibrary', executablePath='<DVTFilePath:0x7fa5963afe30:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~6N4lQ3
+2021-06-25 05:43:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~6N4lQ3' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/iOSDFULibrary.framework'
+2021-06-25 05:43:43 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/iOSDFULibrary.framework: signed bundle with Mach-O universal (arm64) [org.cocoapods.iOSDFULibrary]
+2021-06-25 05:43:43 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:43 +0000  Entitlements for <IDEDistributionItem: 0x7fa597a16170; bundleID='com.sunilhadap.rhapsody.Footsee1', path='<DVTFilePath:0x7fa59635a030:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595b193f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a2ccd0; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa593949d70>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='{
+    "application-identifier" = "A25W4243CS.com.sunilhadap.rhapsody.Footsee1";
+    "com.apple.developer.team-identifier" = A25W4243CS;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "A25W4243CS.com.sunilhadap.rhapsody.Footsee1"
+    );
+}', teamID='A25W4243CS', identifier='com.sunilhadap.rhapsody.Footsee1', executablePath='<DVTFilePath:0x7fa597fb4610:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Footsee'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "A25W4243CS.com.sunilhadap.rhapsody.Footsee1";
+    "com.apple.developer.team-identifier" = A25W4243CS;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "A25W4243CS.com.sunilhadap.rhapsody.Footsee1"
+    );
+}
+2021-06-25 05:43:43 +0000  Entitlements for <IDEDistributionItem: 0x7fa597a16170; bundleID='com.sunilhadap.rhapsody.Footsee1', path='<DVTFilePath:0x7fa59635a030:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595b193f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a46c00; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa59391b000>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='{
+    "application-identifier" = "A25W4243CS.com.sunilhadap.rhapsody.Footsee1";
+    "com.apple.developer.team-identifier" = A25W4243CS;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "A25W4243CS.com.sunilhadap.rhapsody.Footsee1"
+    );
+}', teamID='A25W4243CS', identifier='com.sunilhadap.rhapsody.Footsee1', executablePath='<DVTFilePath:0x7fa597fb4610:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Footsee'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "A25W4243CS.com.sunilhadap.rhapsody.Footsee1";
+    "com.apple.developer.team-identifier" = A25W4243CS;
+    "get-task-allow" = 0;
+    "keychain-access-groups" =     (
+        "A25W4243CS.com.sunilhadap.rhapsody.Footsee1"
+    );
+}
+2021-06-25 05:43:43 +0000  Writing entitlements for <IDEDistributionItem: 0x7fa597a16170; bundleID='com.sunilhadap.rhapsody.Footsee1', path='<DVTFilePath:0x7fa59635a030:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x7fa595b193f0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x7fa597a29e50; name='Apple Development: sunilhadap@hotmail.com (ZJV83KS28T)', hash='D0F687E39EC9278608D707556F0630C226096A96', serialNumber='<DVTSigningCertificateSerialNumber: 0x7fa5939ff230>', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2021-06-15 11:39:28 +0000''>', entitlements='{
+    "application-identifier" = "A25W4243CS.com.sunilhadap.rhapsody.Footsee1";
+    "com.apple.developer.team-identifier" = A25W4243CS;
+    "get-task-allow" = 1;
+    "keychain-access-groups" =     (
+        "A25W4243CS.com.sunilhadap.rhapsody.Footsee1"
+    );
+}', teamID='A25W4243CS', identifier='com.sunilhadap.rhapsody.Footsee1', executablePath='<DVTFilePath:0x7fa597fb4610:'/Users/hadsunil/Library/Developer/Xcode/Archives/2021-06-24/Footsee 6-24-21, 10.43 PM.xcarchive/Products/Applications/Footsee.app/Footsee'>', hardenedRuntime='0'>'> to: /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~FcMoIo
+2021-06-25 05:43:43 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '212727D53F4E593929CE7A6F7FE74B7C615D4295' '--entitlements' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/entitlements~~~FcMoIo' '--preserve-metadata=identifier,flags,runtime' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app'
+2021-06-25 05:43:43 +0000  /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app: signed app bundle with Mach-O thin (arm64) [com.sunilhadap.rhapsody.Footsee1]
+2021-06-25 05:43:43 +0000  /usr/bin/codesign exited with 0
+2021-06-25 05:43:43 +0000  Processing step: IDEDistributionZipODRItemStep
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2021-06-25 05:43:43 +0000  Processing step: IDEDistributionCreateIPAStep
+2021-06-25 05:43:43 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root' '/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Packages/Footsee.ipa'
+2021-06-25 05:43:43 +0000  >>> Copying /var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root 
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:43 +0000  16154 bytes for ./Payload/Footsee.app/_CodeSignature/CodeResources
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Settings.bundle/en.lproj/Root.strings ... 
+2021-06-25 05:43:43 +0000  546 bytes for ./Payload/Footsee.app/Settings.bundle/en.lproj/Root.strings
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Settings.bundle/Root.plist ... 
+2021-06-25 05:43:43 +0000  3277 bytes for ./Payload/Footsee.app/Settings.bundle/Root.plist
+copying file ./Payload/Footsee.app/Footsee ... 
+2021-06-25 05:43:43 +0000  586032 bytes for ./Payload/Footsee.app/Footsee
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/AppIcon60x60@2x.png ... 
+4571 bytes for ./Payload/Footsee.app/AppIcon60x60@2x.png
+copying file ./Payload/Footsee.app/frog-foot-svgrepo-com.svg ... 
+852 bytes for ./Payload/Footsee.app/frog-foot-svgrepo-com.svg
+copying file ./Payload/Footsee.app/Base.lproj/Main.storyboardc/vej-qd-Tzv-view-xVE-xt-emR.nib ... 
+2021-06-25 05:43:43 +0000  28599 bytes for ./Payload/Footsee.app/Base.lproj/Main.storyboardc/vej-qd-Tzv-view-xVE-xt-emR.nib
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Base.lproj/Main.storyboardc/UITableViewController-vej-qd-Tzv.nib ... 
+2021-06-25 05:43:43 +0000  3351 bytes for ./Payload/Footsee.app/Base.lproj/Main.storyboardc/UITableViewController-vej-qd-Tzv.nib
+copying file ./Payload/Footsee.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-rjK-Im-gwb.nib ... 
+2021-06-25 05:43:43 +0000  8230 bytes for ./Payload/Footsee.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-rjK-Im-gwb.nib
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Base.lproj/Main.storyboardc/UINavigationController-C0f-nK-5UG.nib ... 
+2021-06-25 05:43:43 +0000  2769 bytes for ./Payload/Footsee.app/Base.lproj/Main.storyboardc/UINavigationController-C0f-nK-5UG.nib
+copying file ./Payload/Footsee.app/Base.lproj/Main.storyboardc/Info.plist ... 
+2021-06-25 05:43:43 +0000  361 bytes for ./Payload/Footsee.app/Base.lproj/Main.storyboardc/Info.plist
+copying file ./Payload/Footsee.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2021-06-25 05:43:43 +0000  1197 bytes for ./Payload/Footsee.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+copying file ./Payload/Footsee.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
+2021-06-25 05:43:43 +0000  896 bytes for ./Payload/Footsee.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Payload/Footsee.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2021-06-25 05:43:43 +0000  258 bytes for ./Payload/Footsee.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Release.md ... 
+2021-06-25 05:43:43 +0000  319 bytes for ./Payload/Footsee.app/Release.md
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Assets.car ... 
+2021-06-25 05:43:43 +0000  104328 bytes for ./Payload/Footsee.app/Assets.car
+copying file ./Payload/Footsee.app/.gitignore ... 
+2021-06-25 05:43:43 +0000  1583 bytes for ./Payload/Footsee.app/.gitignore
+copying file ./Payload/Footsee.app/AppIcon76x76@2x~ipad.png ... 
+2021-06-25 05:43:43 +0000  5826 bytes for ./Payload/Footsee.app/AppIcon76x76@2x~ipad.png
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:43 +0000  1798 bytes for ./Payload/Footsee.app/Frameworks/SwiftyJSON.framework/_CodeSignature/CodeResources
+copying file ./Payload/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON ... 
+2021-06-25 05:43:43 +0000  360064 bytes for ./Payload/Footsee.app/Frameworks/SwiftyJSON.framework/SwiftyJSON
+copying file ./Payload/Footsee.app/Frameworks/SwiftyJSON.framework/Info.plist ... 
+2021-06-25 05:43:43 +0000  742 bytes for ./Payload/Footsee.app/Frameworks/SwiftyJSON.framework/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/MarqueeLabel.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Footsee.app/Frameworks/MarqueeLabel.framework/_CodeSignature/CodeResources
+copying file ./Payload/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel ... 
+2021-06-25 05:43:43 +0000  312304 bytes for ./Payload/Footsee.app/Frameworks/MarqueeLabel.framework/MarqueeLabel
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/MarqueeLabel.framework/Info.plist ... 
+746 bytes for ./Payload/Footsee.app/Frameworks/MarqueeLabel.framework/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/ZIPFoundation.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Footsee.app/Frameworks/ZIPFoundation.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation ... 
+2021-06-25 05:43:43 +0000  418384 bytes for ./Payload/Footsee.app/Frameworks/ZIPFoundation.framework/ZIPFoundation
+copying file ./Payload/Footsee.app/Frameworks/ZIPFoundation.framework/Info.plist ... 
+2021-06-25 05:43:43 +0000  749 bytes for ./Payload/Footsee.app/Frameworks/ZIPFoundation.framework/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:43 +0000  1798 bytes for ./Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift ... 
+2021-06-25 05:43:43 +0000  487296 bytes for ./Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework/NotificationBannerSwift
+copying file ./Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework/Info.plist ... 
+2021-06-25 05:43:43 +0000  771 bytes for ./Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/MetaWear.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:43 +0000  1798 bytes for ./Payload/Footsee.app/Frameworks/MetaWear.framework/_CodeSignature/CodeResources
+copying file ./Payload/Footsee.app/Frameworks/MetaWear.framework/MetaWear ... 
+2021-06-25 05:43:43 +0000  1530112 bytes for ./Payload/Footsee.app/Frameworks/MetaWear.framework/MetaWear
+copying file ./Payload/Footsee.app/Frameworks/MetaWear.framework/Info.plist ... 
+2021-06-25 05:43:43 +0000  779 bytes for ./Payload/Footsee.app/Frameworks/MetaWear.framework/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/DropDown.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:43 +0000  2096 bytes for ./Payload/Footsee.app/Frameworks/DropDown.framework/_CodeSignature/CodeResources
+copying file ./Payload/Footsee.app/Frameworks/DropDown.framework/DropDown ... 
+2021-06-25 05:43:43 +0000  382304 bytes for ./Payload/Footsee.app/Frameworks/DropDown.framework/DropDown
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/DropDown.framework/DropDownCell.nib ... 
+2021-06-25 05:43:43 +0000  2510 bytes for ./Payload/Footsee.app/Frameworks/DropDown.framework/DropDownCell.nib
+copying file ./Payload/Footsee.app/Frameworks/DropDown.framework/Info.plist ... 
+2021-06-25 05:43:43 +0000  739 bytes for ./Payload/Footsee.app/Frameworks/DropDown.framework/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/iOSDFULibrary.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:43 +0000  1798 bytes for ./Payload/Footsee.app/Frameworks/iOSDFULibrary.framework/_CodeSignature/CodeResources
+copying file ./Payload/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary ... 
+2021-06-25 05:43:43 +0000  1129712 bytes for ./Payload/Footsee.app/Frameworks/iOSDFULibrary.framework/iOSDFULibrary
+copying file ./Payload/Footsee.app/Frameworks/iOSDFULibrary.framework/Info.plist ... 
+2021-06-25 05:43:43 +0000  749 bytes for ./Payload/Footsee.app/Frameworks/iOSDFULibrary.framework/Info.plist
+copying file ./Payload/Footsee.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources ... 
+2021-06-25 05:43:43 +0000  1798 bytes for ./Payload/Footsee.app/Frameworks/SnapKit.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/SnapKit.framework/SnapKit ... 
+2021-06-25 05:43:43 +0000  413248 bytes for ./Payload/Footsee.app/Frameworks/SnapKit.framework/SnapKit
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/SnapKit.framework/Info.plist ... 
+737 bytes for ./Payload/Footsee.app/Frameworks/SnapKit.framework/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/SwiftProtobuf.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Footsee.app/Frameworks/SwiftProtobuf.framework/_CodeSignature/CodeResources
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf ... 
+2021-06-25 05:43:43 +0000  4020032 bytes for ./Payload/Footsee.app/Frameworks/SwiftProtobuf.framework/SwiftProtobuf
+copying file ./Payload/Footsee.app/Frameworks/SwiftProtobuf.framework/Info.plist ... 
+2021-06-25 05:43:43 +0000  749 bytes for ./Payload/Footsee.app/Frameworks/SwiftProtobuf.framework/Info.plist
+copying file ./Payload/Footsee.app/Frameworks/SwiftyCam.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Footsee.app/Frameworks/SwiftyCam.framework/_CodeSignature/CodeResources
+copying file ./Payload/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam ... 
+2021-06-25 05:43:43 +0000  454688 bytes for ./Payload/Footsee.app/Frameworks/SwiftyCam.framework/SwiftyCam
+copying file ./Payload/Footsee.app/Frameworks/SwiftyCam.framework/Info.plist ... 
+2021-06-25 05:43:43 +0000  740 bytes for ./Payload/Footsee.app/Frameworks/SwiftyCam.framework/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/BoltsSwift.framework/_CodeSignature/CodeResources ... 
+1798 bytes for ./Payload/Footsee.app/Frameworks/BoltsSwift.framework/_CodeSignature/CodeResources
+copying file ./Payload/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift ... 
+2021-06-25 05:43:43 +0000  235984 bytes for ./Payload/Footsee.app/Frameworks/BoltsSwift.framework/BoltsSwift
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Frameworks/BoltsSwift.framework/Info.plist ... 
+742 bytes for ./Payload/Footsee.app/Frameworks/BoltsSwift.framework/Info.plist
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/embedded.mobileprovision ... 
+2021-06-25 05:43:43 +0000  14612 bytes for ./Payload/Footsee.app/embedded.mobileprovision
+2021-06-25 05:43:43 +0000  copying file ./Payload/Footsee.app/Info.plist ... 
+2218 bytes for ./Payload/Footsee.app/Info.plist
+copying file ./Payload/Footsee.app/PkgInfo ... 
+2021-06-25 05:43:43 +0000  8 bytes for ./Payload/Footsee.app/PkgInfo
+2021-06-25 05:43:43 +0000  /usr/bin/ditto exited with 0
+2021-06-25 05:43:43 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2021-06-25 05:43:43 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2021-06-25 05:43:43 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa597fb8360:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MetaWear.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa597a6eca0:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/BoltsSwift.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa5941c1080:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyJSON.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa597a5e640:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/ZIPFoundation.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa597f9c380:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/MarqueeLabel.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa597fc2dd0:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/NotificationBannerSwift.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa597fac0c0:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SnapKit.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa596e82320:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftyCam.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa596e61950:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/SwiftProtobuf.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa597fb0260:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/DropDown.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa597faac00:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app/Frameworks/iOSDFULibrary.framework'>
+2021-06-25 05:43:43 +0000  IDEDistributionItem init <DVTFilePath:0x7fa596de42b0:'/var/folders/3t/grkshll964n5xz4mxwr7ts5mg9z2b6/T/XcodeDistPipeline.~~~0iKu58/Root/Payload/Footsee.app'>
+2021-06-25 05:43:43 +0000  Processing step: IDEDistributionCreateManifestStep
